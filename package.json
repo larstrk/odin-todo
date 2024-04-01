@@ -1,0 +1,31 @@
+{
+  "name": "odin-todo",
+  "version": "1.0.0",
+  "description": "Todo List from the Odin Project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/larstrk/odin-todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Lars Tuerke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larstrk/odin-todo/issues"
+  },
+  "homepage": "https://github.com/larstrk/odin-todo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
